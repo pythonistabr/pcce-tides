@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "pcce-tides"
+version = "0.1"
+description = "No description"
+authors = ["pythonistabr <gustavo.oceanografia@gmail.com>"]
+license = "mit"
+readme = "README.md"
+packages = [{include = "pcce_tides"}]
+
+[tool.poetry.dependencies]
+python = ">=3.8, <= 3.11"
+utide = "^0.3.0"
+jupyter = "^1.0.0"
+pandas = "^2.0.0"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
